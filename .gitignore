@@ -361,3 +361,17 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+## Unreal Engine: generated folders (regenerated automatically by the editor/build)
+/Binaries/
+/Intermediate/
+/Saved/
+/DerivedDataCache/
+/Build/
+/Plugins/*/Binaries/
+/Plugins/*/Intermediate/
+
+# Unreal Engine: generated Visual Studio / IDE files
+*.sln
+.vsconfig
+.vscode/
+.idea/
